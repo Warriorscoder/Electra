@@ -1,0 +1,81 @@
+.hero{
+    display: flex;
+    margin-top: 5rem;
+    }
+    
+.text{
+        margin: auto;
+        /* border: 2px solid white; */
+        background-color: rgba(56, 55, 55, 0.137);
+        padding: 5rem;
+        border-radius: 20px;
+}
+.heading{
+    font-size: 3rem;
+    display: flex;
+    justify-content:center ;
+    margin:0;
+}
+
+.heading2{
+    display: flex;
+    justify-content:center ;
+    color: gray;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    
+}
+
+.temp{
+    background: linear-gradient(to bottom right, #61fe04, #37ec71);
+    border: 0;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+
+  .temp:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(0, 212, 255, 0.5), .125rem .125rem 1rem rgba(55, 236, 113, 0.5);
+  }
+  
+  .temp:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(0, 212, 255, 0.5), .125rem .125rem 1rem rgba(55, 236, 113, 0.5);
+  }
+
+  .p{
+    padding: 5px;
+  }
+  .p:hover{
+    border: 1px solid white;
+  }
+
+  .indiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+  }
+  .in{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+  }

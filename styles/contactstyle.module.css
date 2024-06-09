@@ -1,0 +1,67 @@
+.main{
+    display: grid;
+    margin-top: 15rem;
+    background-color: rgba(41, 40, 40, 0.493);  
+    padding: 10rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heading{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    display: flex;
+    justify-content:center ;
+}
+
+.heading2{
+    font-size: 1.2rem;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+
+.main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    /* gap: 1.5vw; */
+    margin-top: 4rem;
+    grid-gap: 10px;
+}
+
+.d{
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.font{
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+
+}
+
+.d2{
+    border-right: 2px solid white;
+}

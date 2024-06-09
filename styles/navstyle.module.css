@@ -1,0 +1,72 @@
+.main{
+    display: flex;
+    margin: 1.5vw;
+    gap: 10vw;
+    /* justify-content: center; */
+}
+.span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10vw;
+}
+.ul{
+    margin: auto;
+    list-style: none;
+    display: flex;
+    gap: 5vw;
+    font-size: 1.3rem;
+}
+
+.link2{
+    color: white;
+    text-decoration: none;
+    /* transition: border 1s ease-in; */
+}
+.link{
+    color: white;
+    text-decoration: none;
+    transition: border 1s ease-in;
+}
+
+.link:hover{
+    border-bottom: 1px solid rgb(12, 238, 80);
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10vw;
+}
+
+.temp{
+    background: linear-gradient(to bottom right, #61fe04, #37ec71);
+    border: 0;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+  }
+
+  .temp:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(0, 212, 255, 0.5), .125rem .125rem 1rem rgba(55, 236, 113, 0.5);
+  }
+  
+  .temp:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(0, 212, 255, 0.5), .125rem .125rem 1rem rgba(55, 236, 113, 0.5);
+  }

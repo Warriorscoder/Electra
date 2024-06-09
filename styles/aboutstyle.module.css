@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    margin-top: 15rem;
+
+}
+
+.main2{
+    margin: auto;
+}
+
+.heading{
+    font-size: 4rem;
+    display: flex;
+    justify-content:center ;
+  
+    margin:0;
+}
+.p{
+    display: flex;
+    justify-content:center ;
+}
+
+.p2{
+    width: 75%;
+    font-size: 1.4rem;
+    text-align: center;
+    word-spacing: 3px;
+}
