@@ -13,7 +13,7 @@ function Main() {
 
           <h3 className={mainstyle.heading2} >We believe the future is autonomous and sustainable</h3>
 
-            <Image width={600} height={350} src={"/auto.png"}></Image>
+            <Image className={mainstyle.scale} width={600} height={350} src={"/auto.png"}></Image>
 
             <div  className={mainstyle.button}>
 

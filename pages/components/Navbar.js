@@ -15,7 +15,7 @@ function Navbar() {
             height={100}
             src="/navimg.png"
           />
-          <Link className={navstyle.link2} href={"/"}> <h1>Electra</h1></Link>
+          <Link className={navstyle.link2} href={"/"}> <h1 className={navstyle.slide} >Electra</h1></Link>
         </span>
         <ul className={navstyle.ul} >
            <Link className={navstyle.link}  href={"/"} >Home</Link>
