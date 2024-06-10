@@ -3,11 +3,9 @@ import Navbar from './Navbar';
 import bookstyle from "../../styles/bookstyle.module.css";
 import Image from 'next/image';
 import Done from './Done';
+import Link from 'next/link';
 function Book() {
 
-  function handlebook(){
-    
-  }
   return (
     <>
     <Navbar/>
@@ -49,9 +47,11 @@ function Book() {
 
             <div  className={bookstyle.button}>
 
-            <button onClick={handlebook} className={bookstyle.temp} role="button">
-               Book
-            </button>
+            <Link href={"../components/Done"} >
+                <button className={bookstyle.temp} role="button">
+                  Book
+                </button>
+            </Link>
 
             </div>
         </div>
