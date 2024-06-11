@@ -61,10 +61,11 @@
   }
 
   .p{
-    padding: 5px;
+    padding: 15px;
   }
   .p:hover{
     border: 1px solid white;
+    border-radius: 10px;
   }
 
   .indiv{
@@ -78,4 +79,5 @@
     border-radius: 10px;
     background-color: transparent;
     color: white;
+    padding: 15px;
   }
